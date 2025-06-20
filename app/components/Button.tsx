@@ -12,7 +12,7 @@ export default function Button({
   className = '',
   ...props
 }: ButtonProps) {
-  const baseClasses = 'font-bold transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#FFD43D] focus:border-[#000000] disabled:cursor-not-allowed'
+  const baseClasses = 'font-bold transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#ffc814] focus:border-[#000000] disabled:cursor-not-allowed'
   
   const sizeClasses = {
     'large': 'h-12 px-6 text-base rounded-lg',
@@ -23,14 +23,14 @@ export default function Button({
 
   const variantClasses = {
     solid: disabled
-      ? 'bg-[#CCCCCC] text-[#999999] border border-[#CCCCCC]'
-      : 'bg-[#0017C1] text-white border border-[#0017C1] hover:bg-[#00118F] active:bg-[#000060]',
+      ? 'bg-[#f1f1f1] text-[#323230] border border-[#f1f1f1]'
+      : 'bg-[#ffc814] text-[#000000] border border-[#ffc814] hover:bg-[#e6b412] active:bg-[#cc9f10]',
     outlined: disabled
-      ? 'bg-transparent text-[#999999] border border-[#CCCCCC]'
-      : 'bg-transparent text-[#0017C1] border border-[#0017C1] hover:bg-[#F0F2FF] active:bg-[#E0E6FF]',
+      ? 'bg-transparent text-[#323230] border border-[#f1f1f1]'
+      : 'bg-transparent text-[#ffc814] border border-[#ffc814] hover:bg-[#fffbf0] active:bg-[#fff7e0]',
     text: disabled
-      ? 'bg-transparent text-[#999999] border border-transparent'
-      : 'bg-transparent text-[#0017C1] border border-transparent hover:bg-[#F0F2FF] active:bg-[#E0E6FF]'
+      ? 'bg-transparent text-[#323230] border border-transparent'
+      : 'bg-transparent text-[#ffc814] border border-transparent hover:bg-[#fffbf0] active:bg-[#fff7e0]'
   }
 
   const combinedClasses = `
