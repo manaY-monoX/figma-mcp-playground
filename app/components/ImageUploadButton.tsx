@@ -42,10 +42,10 @@ export default function ImageUploadButton({
         disabled={disabled}
         className={`
           h-10 px-4 text-sm font-bold rounded-lg transition-all duration-200
-          focus:outline-none focus:ring-4 focus:ring-[#FFD43D] focus:border-[#000000]
+          focus:outline-none focus:ring-4 focus:ring-[#ffc814] focus:border-[#000000]
           ${disabled
-            ? 'bg-transparent text-[#999999] border border-[#CCCCCC] cursor-not-allowed'
-            : 'bg-transparent text-[#0017C1] border border-[#0017C1] hover:bg-[#F0F2FF] active:bg-[#E0E6FF]'
+            ? 'bg-transparent text-[#323230] border border-[#f1f1f1] cursor-not-allowed'
+            : 'bg-transparent text-[#f15f00] border border-[#f15f00] hover:bg-[#fff5f0] active:bg-[#ffe8dd]'
           }
         `.trim()}
       >

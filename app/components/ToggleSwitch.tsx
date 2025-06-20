@@ -36,12 +36,12 @@ export default function ToggleSwitch({
         disabled={disabled}
         className={`
           relative inline-flex h-6 w-11 items-center rounded-full transition-colors duration-200
-          focus:outline-none focus:ring-4 focus:ring-[#FFD43D] focus:border-[#000000]
+          focus:outline-none focus:ring-4 focus:ring-[#ffc814] focus:border-[#000000]
           ${disabled 
-            ? 'bg-[#CCCCCC] cursor-not-allowed' 
+            ? 'bg-[#f1f1f1] cursor-not-allowed' 
             : checked 
-              ? 'bg-[#0017C1] hover:bg-[#00118F]' 
-              : 'bg-[#666666] hover:bg-[#333333]'
+              ? 'bg-[#f15f00] hover:bg-[#d64d00]' 
+              : 'bg-[#323230] hover:bg-[#000000]'
           }
         `.trim()}
       >

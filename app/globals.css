@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
 :root {
+  /* MONO-X Brand Colors */
+  --monox-yellow: #ffc814;
+  --monox-orange: #f15f00;
+  --monox-yellow-orange: #f69219;
+  --monox-black: #000000;
+  --monox-gray: #f1f1f1;
+  --monox-deep-gray: #323230;
+  
+  /* Background and Foreground */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: var(--monox-black);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Neue Haas Grotesk Pro", "Helvetica Neue", sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--monox-deep-gray);
+    --foreground: #ffffff;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Neue Haas Grotesk Pro", "Helvetica Neue", sans-serif;
 }
+
+/* MONO-X Typography Scale */
+.text-monox-xl { font-size: 60px; line-height: 1.2; } /* 大見出し */
+.text-monox-lg { font-size: 30px; line-height: 1.3; } /* 中見出し */
+.text-monox-md { font-size: 18px; line-height: 1.4; } /* 小見出し */
+.text-monox-base { font-size: 14px; line-height: 1.7; } /* 本文大 */
+.text-monox-sm { font-size: 12px; line-height: 1.7; } /* 本文小 */
+.text-monox-xs { font-size: 10px; line-height: 1.7; } /* 注釈 */
+
+/* MONO-X Color Classes */
+.bg-monox-yellow { background-color: var(--monox-yellow); }
+.bg-monox-orange { background-color: var(--monox-orange); }
+.bg-monox-yellow-orange { background-color: var(--monox-yellow-orange); }
+.bg-monox-black { background-color: var(--monox-black); }
+.bg-monox-gray { background-color: var(--monox-gray); }
+.bg-monox-deep-gray { background-color: var(--monox-deep-gray); }
+
+.text-monox-yellow { color: var(--monox-yellow); }
+.text-monox-orange { color: var(--monox-orange); }
+.text-monox-yellow-orange { color: var(--monox-yellow-orange); }
+.text-monox-black { color: var(--monox-black); }
+.text-monox-gray { color: var(--monox-gray); }
+.text-monox-deep-gray { color: var(--monox-deep-gray); }
+
+.border-monox-yellow { border-color: var(--monox-yellow); }
+.border-monox-orange { border-color: var(--monox-orange); }
+.border-monox-yellow-orange { border-color: var(--monox-yellow-orange); }
+.border-monox-black { border-color: var(--monox-black); }
+.border-monox-gray { border-color: var(--monox-gray); }
+.border-monox-deep-gray { border-color: var(--monox-deep-gray); }
