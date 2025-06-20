@@ -1,0 +1,131 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# MONO-X Brand Design System
+
+## MONO-X ブランド概要
+
+* [cite_start]**ブランド名:** MONO-X [cite: 1]
+* [cite_start]**タグライン:** Rewrite the Standard. [cite: 1]
+* [cite_start]**ドキュメント:** Brand Guidelines Vol.1 [cite: 1, 49]
+
+---
+
+## 1. ロゴアウトライン
+
+* [cite_start]**ロゴコンセプト:** "Across The New Cross Points" [cite: 6]
+* [cite_start]**「X」の意味:** 新たな時代のクロスポイントを象徴しています。 [cite: 6] [cite_start]これは、企業内、企業間、産業間に存在するデータのクロスポイントとなり、あらゆる情報を接続して新時代のデータ連携インフラを創造することを目指すものです。 [cite: 6]
+
+---
+
+## 2. ブランドロゴ
+
+### **ロゴの構造とデザイン**
+* [cite_start]**ダイナミックロゴ:** ロゴは施設ごとに可変性のあるダイナミックロゴです。 [cite: 9, 10]
+    * [cite_start]横軸は施設の平米数を、縦軸は階数を表し、矩形の点の位置がグリッド上で変動します。 [cite: 9, 10]
+* [cite_start]**不変の要素:** 六角形の縦軸の垂直と円の大きさは、いかなる場合も変更してはいけません。 [cite: 9, 10]
+
+### **ロゴのレイアウト**
+* [cite_start]**基本形式:** ロゴにはヨコ仕様とタテ仕様があり、どちらかに優先順位はありません。 [cite: 13]
+* [cite_start]**組み合わせ:** 以下の組み合わせパターンが定義されています。 [cite: 13, 15]
+    * [cite_start]Logo + Tagline (タテ/ヨコ) [cite: 13, 15]
+    * [cite_start]Logo (タテ/ヨコ) [cite: 13, 15]
+    * [cite_start]Logotype + Tagline [cite: 13, 15]
+    * [cite_start]Logotype [cite: 13, 15]
+    * [cite_start]Logo Mark [cite: 13, 15]
+
+### **アイソレーションエリア（余白規定）**
+* [cite_start]ロゴの周囲にはアイソレーションエリアが設定されており、このエリア内には原則として他のいかなるモチーフも配置してはいけません。 [cite: 14, 15]
+* [cite_start]**例外:** ロゴマークをパターンや装飾として使用する場合は、この規定の限りではありません。 [cite: 14, 15]
+
+### **最小使用サイズ**
+* [cite_start]ロゴの各パターンには、Web（pixel）および印刷（mm）での最小使用サイズが規定されています。 [cite: 16]
+    * [cite_start]**Logomark + Logotype-Vertical:** W22mm / W28pixel [cite: 16]
+    * [cite_start]**Logomark + Logotype-Horizontal:** W10mm / W20pixel [cite: 16]
+    * [cite_start]**Logomark_only:** W20mm / W25pixel [cite: 16]
+    * [cite_start]**Logotype:** W20mm / W25pixel [cite: 16]
+    * [cite_start]**Logotype + Tagline:** W28mm / W50pixel [cite: 16]
+    * [cite_start]**Logomark + Logotype + Tagline-Vertical:** W20mm / W25pixel [cite: 17]
+    * [cite_start]**Logomark + Logotype + Tagline-Horizontal:** W30mm / W40pixel [cite: 17]
+
+---
+
+## 3. ブランドカラー
+
+### **プライマリーカラー**
+* [cite_start]基本として使用する6色のプライマリーカラーが設定されています。 [cite: 19]
+    * [cite_start]MONO-X Yellow (#ffc814) [cite: 19]
+    * [cite_start]MONO-X Orange (#f15f00) [cite: 19]
+    * [cite_start]MONO-X Yellow Orange (#f69219) [cite: 19]
+    * [cite_start]MONO-X Black (#000000) [cite: 19]
+    * [cite_start]MONO-X Gray (#f1f1f1) [cite: 19]
+    * [cite_start]MONO-X Deep Gray (#323230) [cite: 19]
+
+### **セカンダリーカラー**
+* [cite_start]プライマリーカラー（MONO-X YELLOW TONE）に加えて、5つのセカンダリーカラーの配色が使用可能です。 [cite: 21]
+    * [cite_start]MONO-X GREEN TONE [cite: 21, 23]
+    * [cite_start]MONO-X RED TONE [cite: 21, 24, 25]
+    * [cite_start]MONO-X BLUE TONE [cite: 24, 26]
+    * [cite_start]MONO-X BROWN TONE [cite: 27]
+    * [cite_start]MONO-X PUEPLE (PURPLE) TONE [cite: 27]
+* [cite_start]これらのカラーパターンは、グレーや前述のグラデーションと組み合わせることが可能です。 [cite: 21]
+
+### **グラデーション**
+* [cite_start]規定のカラーリングを使用したグラデーションが定義されています。 [cite: 20] [cite_start]配色が同一であればドットの位置は問われず、使用シーンも自由です。 [cite: 20]
+
+---
+
+## 4. エレメント
+
+* [cite_start]**ユニット:** ロゴから派生する直線と円の幾何図形を「ユニット」として展開できます。 [cite: 30] [cite_start]形の組み合わせは自由です。 [cite: 30]
+* [cite_start]**パターン:** ロゴマークはクロスポイントを表すため、多数を繋げてパターンとして扱うことが可能です。 [cite: 31] [cite_start]その際のカラーリングは自由です。 [cite: 31]
+
+---
+
+## 5. タイポグラフィ
+
+### **プライマリーフォント**
+* **欧文:**
+    * [cite_start]サンセリフ: Neue Haas Grotesk Pro [cite: 33, 34, 39]
+    * [cite_start]セリフ: Times New Roman [cite: 34, 39]
+* **和文:**
+    * [cite_start]ゴシック体: 游ゴシック [cite: 38, 39]
+    * [cite_start]明朝体: A1明朝 [cite: 38, 39]
+* [cite_start]ファミリーはすべて使用可能です。 [cite: 34, 38]
+
+### **セカンダリーフォント**
+* **欧文:**
+    * [cite_start]サンセリフ: Helvetica Neue [cite: 39]
+    * [cite_start]セリフ: Baskerville [cite: 39]
+* **和文:**
+    * [cite_start]ゴシック体: 源ノ角ゴシック [cite: 39]
+    * [cite_start]明朝体: リュウミン [cite: 39]
+
+### **フォントサイズ（参考）**
+* [cite_start]大見出し: 60pt [cite: 40]
+* [cite_start]中見出し: 30pt [cite: 40]
+* [cite_start]小見出し: 18pt [cite: 40]
+* [cite_start]本文大: 14pt [cite: 41]
+* [cite_start]本文小: 12pt [cite: 41]
+* [cite_start]注釈: 10pt [cite: 41]
+
+---
+
+## 6. レギュレーション（使用規定）
+
+### **禁止事項**
+* [cite_start]ロゴタイプの色の変更 [cite: 44]
+* [cite_start]アウトライン（線画）表現 [cite: 44]
+* [cite_start]ロゴの比率の変更 [cite: 44]
+* [cite_start]ロゴの一部または全部の加工 [cite: 44]
+* [cite_start]ロゴの一部を隠しての使用 [cite: 44]
+
+### **背景色ごとの使用法**
+* [cite_start]明るい背景、暗い背景、写真背景それぞれに適したロゴのカラーリングが規定されています。 [cite: 45]
+* [cite_start]背景とロゴの明度が近く、視認性を損なう場合は、モノクロロゴなどを使用します。 [cite: 45]
+
+### **写真の使用**
+* [cite_start]写真を使用する際は、「Solid and Clear」を意識してください。 [cite: 47]
+* [cite_start]ブランドカラーと合わせて使用する場合、写真はモノクロにするなど彩度を落とすことを推奨します。 [cite: 47, 48]

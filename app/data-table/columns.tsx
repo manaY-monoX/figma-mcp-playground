@@ -2,8 +2,8 @@
 
 import { ColumnDef } from "@tanstack/react-table"
 import { ArrowUpDown } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+import { Button } from "../components/mono-x/Button"
+import { Badge } from "../components/mono-x/Badge"
 
 // 請求書データの型定義
 export type Invoice = {
@@ -19,9 +19,10 @@ export const columns: ColumnDef<Invoice>[] = [
     header: ({ column }) => {
       return (
         <Button
-          variant="ghost"
+          variant="outline"
+          size="small"
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-          className="h-auto p-0"
+          className="h-auto p-2 border-none bg-transparent text-mono-x-black hover:bg-mono-x-yellow/20"
         >
           請求書
           <ArrowUpDown className="ml-2 h-4 w-4" />
@@ -36,9 +37,10 @@ export const columns: ColumnDef<Invoice>[] = [
       return (
         <div className="text-center">
           <Button
-            variant="ghost"
+            variant="outline"
+            size="small"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-            className="h-auto p-0"
+            className="h-auto p-2 border-none bg-transparent text-mono-x-black hover:bg-mono-x-yellow/20"
           >
             ステータス
             <ArrowUpDown className="ml-2 h-4 w-4" />
@@ -49,18 +51,18 @@ export const columns: ColumnDef<Invoice>[] = [
     cell: ({ row }) => {
       const status = row.getValue("status") as string
       
-      const statusConfig = {
-        paid: { label: "支払済み", className: "bg-green-100 text-green-800 hover:bg-green-100" },
-        pending: { label: "保留中", className: "bg-yellow-100 text-yellow-800 hover:bg-yellow-100" },
-        unpaid: { label: "未払い", className: "bg-red-100 text-red-800 hover:bg-red-100" },
+      const statusLabels = {
+        paid: "支払済み",
+        pending: "保留中", 
+        unpaid: "未払い",
       }
       
-      const config = statusConfig[status as keyof typeof statusConfig]
+      const label = statusLabels[status as keyof typeof statusLabels]
       
       return (
         <div className="text-center">
-          <Badge className={config.className}>
-            {config.label}
+          <Badge variant={status as "paid" | "pending" | "unpaid"}>
+            {label}
           </Badge>
         </div>
       )
@@ -72,9 +74,10 @@ export const columns: ColumnDef<Invoice>[] = [
       return (
         <div className="text-center">
           <Button
-            variant="ghost"
+            variant="outline"
+            size="small"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-            className="h-auto p-0"
+            className="h-auto p-2 border-none bg-transparent text-mono-x-black hover:bg-mono-x-yellow/20"
           >
             支払い方法
             <ArrowUpDown className="ml-2 h-4 w-4" />
@@ -92,9 +95,10 @@ export const columns: ColumnDef<Invoice>[] = [
       return (
         <div className="text-right">
           <Button
-            variant="ghost"
+            variant="outline"
+            size="small"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-            className="h-auto p-0"
+            className="h-auto p-2 border-none bg-transparent text-mono-x-black hover:bg-mono-x-yellow/20"
           >
             金額
             <ArrowUpDown className="ml-2 h-4 w-4" />

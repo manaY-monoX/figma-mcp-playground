@@ -13,8 +13,8 @@ import {
   useReactTable,
 } from "@tanstack/react-table"
 
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Button } from "../components/mono-x/Button"
+import { Input } from "../components/mono-x/Input"
 import {
   Table,
   TableBody,
@@ -58,7 +58,7 @@ export function DataTable<TData, TValue>({
         <Input
           placeholder="請求書をフィルタリング..."
           value={(table.getColumn("id")?.getFilterValue() as string) ?? ""}
-          onChange={(event) =>
+          onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
             table.getColumn("id")?.setFilterValue(event.target.value)
           }
           className="max-w-sm"
@@ -120,7 +120,7 @@ export function DataTable<TData, TValue>({
         <div className="flex items-center space-x-2">
           <Button
             variant="outline"
-            size="sm"
+            size="small"
             onClick={() => table.previousPage()}
             disabled={!table.getCanPreviousPage()}
           >
@@ -128,7 +128,7 @@ export function DataTable<TData, TValue>({
           </Button>
           <Button
             variant="outline"
-            size="sm"
+            size="small"
             onClick={() => table.nextPage()}
             disabled={!table.getCanNextPage()}
           >

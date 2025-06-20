@@ -82,9 +82,22 @@ const invoiceData: Invoice[] = [
 
 export default function DataTablePage() {
   return (
-    <div className="container mx-auto py-10">
-      <h1 className="text-3xl font-bold mb-8">請求書管理</h1>
-      <DataTable columns={columns} data={invoiceData} />
+    <div className="min-h-screen bg-mono-x-white">
+      <div className="container mx-auto py-10 px-4">
+        {/* MONO-X Header */}
+        <header className="mb-8">
+          <h1 className="heading-large text-mono-x-black mb-2 font-mono-x-sans">
+            請求書管理
+          </h1>
+          <p className="body-large text-mono-x-deep-gray">
+            MONO-X データテーブルシステム
+          </p>
+        </header>
+        
+        <div className="card-mono-x p-6">
+          <DataTable columns={columns} data={invoiceData} />
+        </div>
+      </div>
     </div>
   )
 } 
